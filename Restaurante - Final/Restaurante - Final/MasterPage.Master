@@ -43,7 +43,7 @@
                         <asp:LinkButton ID="LinkBtnAdmin" CssClass="btn btn-primary" runat="server" OnClick="LinkBtnAdmin_Click">Ir al menu de Admin</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Label ID="lbl_username" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="Btn_closeSession" runat="server" class="btn btn-danger" OnClick="Btn_closeSession_Click" Text="Cerrar Sesion" />
-                    <asp:HyperLink ID="HyperLink2" CssClass="btn btn-primary" runat="server" NavigateUrl="~/Sesion.aspx">Iniciar Sesion/Registrar</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink2" CssClass="btn btn-primary" runat="server" NavigateUrl="~/Sesion.aspx">Iniciar Sesion y/o Registrar</asp:HyperLink>
                         </div>
                     </div>
 
